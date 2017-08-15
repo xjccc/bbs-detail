@@ -3,7 +3,10 @@
     <figure>
       <img class="commit-header-img" src="http://temp.im/32x32" alt="">
     </figure>
-    <span class="commit-title">卡车之家超级群</span>
+    <div class="commit-title">
+      卡车之家超级群
+      <span class="big-grade"></span>
+    </div>
     <span class="commit-floor">1楼</span>
   </div>
 </template>
@@ -38,6 +41,28 @@ export default {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+  }
+  .grade{
+    display: inline-block;
+    vertical-align: middle;
+    width: 25px;
+    height: 14px;
+    background: url('../assets/grade.png');
+    background-size: 375px 225px;
+    text-indent: -100px;
+    font-size: 0;
+    overflow: hidden;
+  }
+  .big-grade{
+    display: inline-block;
+    vertical-align: middle;
+    width: 49px;
+    height: 14px;
+    background: url('../assets/grade.png');
+    background-size: 375px 225px;
+    text-indent: -100px;
+    font-size: 0;
+    overflow: hidden;
   }
   .commit-floor{
     flex: 1;

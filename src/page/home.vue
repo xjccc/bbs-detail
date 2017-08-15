@@ -39,7 +39,7 @@ export default {
   components: {ArticlHeader, CardList, Commit, AppVideos},
   data () {
     return {
-      Optionsrc: 'http://vali.cp31.ott.cibntv.net/youku/6977FE005FC4471AABD8B32AF/030008010058F85C40E85D131CB68414F4E96E-0C01-DB32-F4E0-360BF28EB1E9.mp4?sid=050269412500010007890_00&sign=5f8645d070d2bd8edc96ef840c2bda6a&ctype=50'
+      Optionsrc: 'https://cdn.theguardian.tv/webM/2015/07/20/150716YesMen_synd_768k_vp8.webm'
     }
   }
 }
